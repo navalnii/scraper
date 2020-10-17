@@ -29,18 +29,14 @@
 	-Сделано. Причем приложение работает даже если не заполнить какое-либо поле.
 
 Первая страница:
-
 ![alt text](https://github.com/navalnii/scraper/blob/master/test.bmp?raw=true)
 
 Вторая страница:
-
 ![alt text](https://github.com/navalnii/scraper/blob/master/1.bmp?raw=true)
 
 Результат:
 
 ![alt text](https://github.com/navalnii/scraper/blob/master/2.bmp?raw=true)
-
-
 
 5) Обеспечить максимально простое развёртывание приложения (например docker-контейнер).
 	- Сделано
