@@ -35,6 +35,9 @@
 Вторая страница:
 
 ![alt text](https://github.com/navalnii/scraper/blob/master/1.bmp?raw=true)
+
+Результат:
+
 ![alt text](https://github.com/navalnii/scraper/blob/master/2.bmp?raw=true)
 
 
