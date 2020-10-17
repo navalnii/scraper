@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="POST">
+	User name (ex.: i.ivanov):    <input name="user"> <br>
+    Start time (ex.: 01.01.2011): <input type=date name="date_from"><br>
+    End time (ex.: 22.12.2011):   <input type=date name="date_to"> <br>		 
+    <input type="submit">
+</form>
+
+{% for table in tables %}            
+            {{ table|safe }}
+{% endfor %}
+
+</body>
+</html>

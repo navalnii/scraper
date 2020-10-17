@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+  </head>
+<head><title>Test</title> 
+    <meta charset=utf-8> </head>
+
+
+	<body>
+        <h1></h1>
+        <form action="/filter_data/">
+            <input type="submit" value="Get data with the date/user" />
+        </form>
+
+
+    </body>
+	
+
+	
+	<body>
+	
+	{% for table in tables %}
+            
+            {{ table|safe }}
+	{% endfor %}
+	
+	</body>
+	
+</html>
