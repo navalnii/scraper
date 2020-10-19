@@ -4,7 +4,7 @@
 
 Процесс установки:
 1) Клонировать git-repository
-2) Перейти в дерикторию flask_app и построить докер: docker build -t my_flask_app:v0.1 .
+2) Перейти в дерикторию scraper и построить докер: docker build -t my_flask_app:v0.1 .
 3) Запустить докер: docker run -p 5000:5000 my_flask_app:v0.1
 4) Перейти открыть в браузере http://192.168.99.100:5000/
 Страница загрузится с таблицей всех user. Для фильтра есть "Get data with date/user". 
